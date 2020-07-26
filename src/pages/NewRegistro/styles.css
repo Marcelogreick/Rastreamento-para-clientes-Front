@@ -1,0 +1,59 @@
+.newregister-container {
+  width: 100%;
+  max-width: 950px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newregister-container .content {
+  width: 100%;
+  padding: 96px;
+  background: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newregister-container select {
+  margin-top: 25px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background: #2e4967;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+
+.newregister-container form {
+  width: 100%;
+  max-width: 600px;
+  margin: 70px;
+}
+
+.newregister-container form input,
+.newregister-container form textarea {
+  margin-top: 8px;
+  max-width: 600px;
+}
+
+.newregister-container form h1 {
+  text-align: center;
+  color: #2e4967;
+}
+
+.newregister-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.newregister-container .content section #Link {
+  margin-top: 10px;
+}

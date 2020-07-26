@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+header span {
+  font-size: 16px;
+  margin-left: 18px;
+}
+
+header span {
+  height: 22px;
+  color: #000;
+  font-weight: 500;
+}
+
+header button {
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.2s;
+  margin-top: 12px;
+}
+
+header button:hover {
+  border-color: #999;
+}
+
+pre {
+  font: 400 14px Roboto, sans-serif;
+  margin-top: 10px;
+}
