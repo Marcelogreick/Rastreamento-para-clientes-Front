@@ -40,7 +40,7 @@ export default function ListProjects() {
   return (
     <SideNav
       scroll
-      style={{ background: "#2e4967", height: "1500px" }}
+      style={{ background: "#6d121e", height: "1500px" }}
       onSelect={(selected) => {
         // Add your code here
       }}

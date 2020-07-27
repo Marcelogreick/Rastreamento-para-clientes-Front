@@ -81,9 +81,9 @@ export default function Consulta() {
 
       <VerticalTimelineElement
         className="Inicio"
-        contentStyle={{ background: "#2e4967", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #2e4967" }}
-        iconStyle={{ background: "#2e4967", color: "#fff" }}
+        contentStyle={{ background: "#6d121e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #6d121e" }}
+        iconStyle={{ background: "#6d121e", color: "#fff" }}
         icon={<AiFillEnvironment />}
       >
         <h3 className="Status">Validação de informações</h3>
@@ -102,7 +102,7 @@ export default function Consulta() {
           <VerticalTimelineElement
             key={register.id}
             className="registro"
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "#d1d1d1", color: "#6d121e" }}
             icon={<IoIosApps />}
           >
             <h3 className="Status">{register.status}</h3>
